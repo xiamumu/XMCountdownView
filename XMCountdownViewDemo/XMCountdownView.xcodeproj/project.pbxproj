@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48E9482C1CF5BD250093F866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9482B1CF5BD250093F866 /* main.m */; };
+		48E9482F1CF5BD250093F866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9482E1CF5BD250093F866 /* AppDelegate.m */; };
+		48E948321CF5BD250093F866 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E948311CF5BD250093F866 /* TestViewController.m */; };
+		48E948351CF5BD250093F866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E948331CF5BD250093F866 /* Main.storyboard */; };
+		48E948371CF5BD250093F866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E948361CF5BD250093F866 /* Assets.xcassets */; };
+		48E9483A1CF5BD250093F866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E948381CF5BD250093F866 /* LaunchScreen.storyboard */; };
+		48E948441CF5BD4E0093F866 /* XMCountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E948431CF5BD4E0093F866 /* XMCountdownView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48E948271CF5BD250093F866 /* XMCountdownView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMCountdownView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E9482B1CF5BD250093F866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48E9482D1CF5BD250093F866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48E9482E1CF5BD250093F866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48E948301CF5BD250093F866 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		48E948311CF5BD250093F866 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		48E948341CF5BD250093F866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48E948361CF5BD250093F866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48E948391CF5BD250093F866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48E9483B1CF5BD250093F866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E948421CF5BD4E0093F866 /* XMCountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCountdownView.h; sourceTree = "<group>"; };
+		48E948431CF5BD4E0093F866 /* XMCountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMCountdownView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48E948241CF5BD250093F866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48E9481E1CF5BD250093F866 = {
+			isa = PBXGroup;
+			children = (
+				48E948291CF5BD250093F866 /* XMCountdownView */,
+				48E948281CF5BD250093F866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48E948281CF5BD250093F866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48E948271CF5BD250093F866 /* XMCountdownView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48E948291CF5BD250093F866 /* XMCountdownView */ = {
+			isa = PBXGroup;
+			children = (
+				48E948411CF5BD4E0093F866 /* XMCountDownSDK */,
+				48E9482D1CF5BD250093F866 /* AppDelegate.h */,
+				48E9482E1CF5BD250093F866 /* AppDelegate.m */,
+				48E948301CF5BD250093F866 /* TestViewController.h */,
+				48E948311CF5BD250093F866 /* TestViewController.m */,
+				48E948331CF5BD250093F866 /* Main.storyboard */,
+				48E948361CF5BD250093F866 /* Assets.xcassets */,
+				48E948381CF5BD250093F866 /* LaunchScreen.storyboard */,
+				48E9483B1CF5BD250093F866 /* Info.plist */,
+				48E9482A1CF5BD250093F866 /* Supporting Files */,
+			);
+			path = XMCountdownView;
+			sourceTree = "<group>";
+		};
+		48E9482A1CF5BD250093F866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48E9482B1CF5BD250093F866 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48E948411CF5BD4E0093F866 /* XMCountDownSDK */ = {
+			isa = PBXGroup;
+			children = (
+				48E948421CF5BD4E0093F866 /* XMCountdownView.h */,
+				48E948431CF5BD4E0093F866 /* XMCountdownView.m */,
+			);
+			path = XMCountDownSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48E948261CF5BD250093F866 /* XMCountdownView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E9483E1CF5BD250093F866 /* Build configuration list for PBXNativeTarget "XMCountdownView" */;
+			buildPhases = (
+				48E948231CF5BD250093F866 /* Sources */,
+				48E948241CF5BD250093F866 /* Frameworks */,
+				48E948251CF5BD250093F866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMCountdownView;
+			productName = XMCountdownView;
+			productReference = 48E948271CF5BD250093F866 /* XMCountdownView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48E9481F1CF5BD250093F866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sean.xia;
+				TargetAttributes = {
+					48E948261CF5BD250093F866 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 48E948221CF5BD250093F866 /* Build configuration list for PBXProject "XMCountdownView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48E9481E1CF5BD250093F866;
+			productRefGroup = 48E948281CF5BD250093F866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48E948261CF5BD250093F866 /* XMCountdownView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48E948251CF5BD250093F866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E9483A1CF5BD250093F866 /* LaunchScreen.storyboard in Resources */,
+				48E948371CF5BD250093F866 /* Assets.xcassets in Resources */,
+				48E948351CF5BD250093F866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48E948231CF5BD250093F866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E948441CF5BD4E0093F866 /* XMCountdownView.m in Sources */,
+				48E948321CF5BD250093F866 /* TestViewController.m in Sources */,
+				48E9482F1CF5BD250093F866 /* AppDelegate.m in Sources */,
+				48E9482C1CF5BD250093F866 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48E948331CF5BD250093F866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E948341CF5BD250093F866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48E948381CF5BD250093F866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E948391CF5BD250093F866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48E9483C1CF5BD250093F866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48E9483D1CF5BD250093F866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48E9483F1CF5BD250093F866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMCountdownView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sean.xia.XMCountdownView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48E948401CF5BD250093F866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMCountdownView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sean.xia.XMCountdownView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48E948221CF5BD250093F866 /* Build configuration list for PBXProject "XMCountdownView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E9483C1CF5BD250093F866 /* Debug */,
+				48E9483D1CF5BD250093F866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E9483E1CF5BD250093F866 /* Build configuration list for PBXNativeTarget "XMCountdownView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E9483F1CF5BD250093F866 /* Debug */,
+				48E948401CF5BD250093F866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48E9481F1CF5BD250093F866 /* Project object */;
+}
